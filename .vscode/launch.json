@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter (Chrome)",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/lib/main.dart",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "FLUTTER_DEBUG": "true",
+        "FLUTTER_WEB_RUNNER": "chrome"
+      },
+      "sourceMaps": true,
+      "outDir": "${workspaceFolder}/build/web",
+      "preLaunchTask": "flutter:buildWeb"
+    }
+  ]
+}
