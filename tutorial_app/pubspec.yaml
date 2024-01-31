@@ -1,7 +1,6 @@
 name: tutorial_app
 description: "A new Flutter project."
 
-# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
 publish_to: "none"
 
 version: 1.0.0+1

@@ -16,11 +16,14 @@ void main() {
     'images/one.png',
   );
 
+  final img2 = Image.network('https://picsum.photos/250?image=9');
+
   // ロー
   final row = Row(
     mainAxisAlignment: MainAxisAlignment.center,
     crossAxisAlignment: CrossAxisAlignment.center,
     children: [img, img, img],
+    children: [img2, img],
   );
 
   // アプリ
