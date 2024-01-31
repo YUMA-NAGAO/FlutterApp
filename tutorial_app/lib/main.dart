@@ -12,25 +12,19 @@ import 'package:flutter/material.dart';
 
 void main() {
   // カラム
-  const col = Column(
-    mainAxisAlignment: MainAxisAlignment.center,
-    crossAxisAlignment: CrossAxisAlignment.center,
-    children: [
-      Text('レモン'),
-      Text('りんご'),
-      Text('ブドウ'),
-    ],
+  final img = Image.asset(
+    'images/one.png',
   );
 
   // ロー
-  const row = Row(
+  final row = Row(
     mainAxisAlignment: MainAxisAlignment.center,
     crossAxisAlignment: CrossAxisAlignment.center,
-    children: [col, col, col],
+    children: [img, img, img],
   );
 
   // アプリ
-  const app = MaterialApp(
+  final app = MaterialApp(
     home: Scaffold(
       body: Center(
         child: row,
